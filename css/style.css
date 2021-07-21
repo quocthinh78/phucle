@@ -1,0 +1,151 @@
+@charset "utf-8";
+/* CSS Document */
+body
+{
+	font-family:tahoma;
+	font-size:13px;
+	width:1000px;
+	margin:0 auto;	
+}
+.top
+{
+	background:#141414;
+	height:40px;	
+	display:flex;
+	align_items:center;
+}
+.banner
+{
+	height:auto;
+	width:1000px;	
+}
+.main .left
+{
+	width:700px;
+	float:left;
+	min-height:400px;
+}
+.main .right
+{
+	width:300px;
+	float:left;
+	min-height:400px;
+}
+.footer
+{
+	background:#000;
+	width:1000px;
+	text-align:center;
+	height:60px;
+	color:#FFF;
+	clear:left;
+	line-height:60px;	
+}
+.top ul
+{
+	margin:0;
+	padding:0;
+	
+}
+.top ul li
+{
+	list-style:none;
+	float:left;	
+}
+.top ul li a
+{
+	text-decoration:none;
+	display:block;
+	height:40px;
+	line-height:40px;
+	color:#FFF;
+	padding:0 20px 0 20px;
+	border-right:1px solid #ccc;
+}	
+.top ul li a#active{
+	background:#1949b5;	
+}	
+.banner img
+{
+	width:1000px;
+}
+.main .left ul
+{
+	margin:0;
+	padding:0;	
+}
+.main .left ul li{
+	list-style:none;
+	clear:left;
+	border-bottom: 2px solid #ccc;
+	float:left;
+	margin-bottom:20px;
+}
+.main .left ul li img{
+	float:left;
+	margin-right:10px;
+	margin-bottom:20px;
+	height:150px;
+}
+.main .left ul li h2{
+	font-size:16px;
+	margin-top:0px;
+}
+.main
+{
+	margin-top:10px;	
+}
+.main .right #menu_right ul
+{
+	margin:-15px 0 0 0;
+	padding:0;
+	border:1px solid #ccc;
+}
+.main .right #menu_right ul li
+{
+	list-style:none;	
+}
+.main .right #menu_right ul li a
+{
+	display:block;
+	text-decoration:none;
+	border-bottom:1px solid #ccc;
+	background:url(../images/iconcheck2.png) no-repeat 2px;
+	text-indent:25px;
+	color:#878787;
+	height:39.9px;
+	line-height:39.9px;
+	font-size:14px;	
+}
+.main .right #menu_right ul li a:hover{
+	color:#F60;	
+}
+.main .right #menu_right h3
+{
+	background:#069 url(../images/iconmenu1.png) no-repeat 5px;
+	height:40px;
+	margin-top:0;
+	font-size:14px;
+	line-height:40px;
+	color:#fff;
+	text-indent:35px;	
+}
+.search-box
+{
+	margin-left:auto;	
+}
+.search-box input
+{
+	margin-top: 7px;
+    margin-right: 5px;
+	height:25px;
+	border:none;	
+	outline:0;
+}
+.search-box .sb-text
+{
+	border-radius:20px;
+	padding:0 10px;
+	line-height:25px;
+	width:200px;	
+}
